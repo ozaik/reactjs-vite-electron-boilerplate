@@ -2,9 +2,6 @@ import { app, shell, BrowserWindow } from 'electron'
 import { join } from 'path'
 import { electronApp, optimizer, is } from '@electron-toolkit/utils'
 import icon from '../../resources/icon.png?asset'
-const test = require('../../resources/test/test')
-
-test()
 
 function createWindow() {
   // Create the browser window.
